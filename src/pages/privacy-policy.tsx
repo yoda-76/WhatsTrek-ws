@@ -95,7 +95,9 @@ export default function PrivacyPolicy() {
         By using the WhatsTrek app, you agree to the terms outlined in this
         Privacy Policy.
       </p>
-      
+      <br/>
+      <br/>
+      <span>updated on <span className="font-bold">29 August 2024</span></span>
     </div>
   );
 }
