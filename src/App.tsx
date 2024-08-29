@@ -9,7 +9,7 @@ function App() {
 
   return (
     <Router>
-      <nav>
+      {/* <nav>
         <ul>
           <li>
             <Link to="/">Home</Link>
@@ -18,6 +18,12 @@ function App() {
             <Link to="/privacy-policy">Privacy Policy</Link>
           </li>
         </ul>
+      </nav> */}
+      <nav>
+        <div className='flex bg-slate-500 p-4 text-white'>
+          <Link className='mr-4 p-2 bg-slate-400' to="/">Home</Link>
+          <Link className='mr-4 p-2 bg-slate-400' to="/privacy-policy">Privacy Policy</Link>
+        </div>
       </nav>
 
       <Routes>
