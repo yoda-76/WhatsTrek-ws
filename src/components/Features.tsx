@@ -1,4 +1,4 @@
-import React from "react";
+
 import ss2 from "../assets/ss2.png";
 import ss1 from "../assets/ss1.png";
 

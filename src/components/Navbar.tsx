@@ -1,5 +1,4 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+
 import CustomButton from './custom/CustomButton'
 import l1 from '../assets/l1.svg'
 

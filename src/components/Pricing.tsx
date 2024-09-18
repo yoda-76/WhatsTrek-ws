@@ -1,10 +1,10 @@
-    import React from 'react'
+
     import p1 from '../assets/p1.png'
     import p2 from '../assets/p2.png'
     import p3 from '../assets/p3.png'
-    import p1h from '../assets/p1h.png'
-    import p2h from '../assets/p2h.png'
-    import p3h from '../assets/p3h.png'
+    // import p1h from '../assets/p1h.png'
+    // import p2h from '../assets/p2h.png'
+    // import p3h from '../assets/p3h.png'
     
     export default function Pricing() {
       return (

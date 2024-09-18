@@ -1,4 +1,4 @@
-import React from 'react'
+
 import hero from '../assets/Hero.png'
 
 export default function HeroBanner() {
