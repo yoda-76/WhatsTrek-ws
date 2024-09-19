@@ -5,7 +5,7 @@ import p3 from '../assets/payment/Payment Method-3.svg'
 import p4 from '../assets/payment/Payment Method-4.svg'
 import p5 from '../assets/payment/Payment Method.svg'
 import s1 from '../assets/social/SVG-1.png'
-import s2 from '../assets/social/SVG.png'
+// import s2 from '../assets/social/SVG.png'
 import s3 from '../assets/social/ri_linkedin-fill.png'
 
 
