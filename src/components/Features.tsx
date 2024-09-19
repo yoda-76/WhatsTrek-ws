@@ -13,8 +13,7 @@ export default function Features() {
           What do we Provide
         </div>
         <div className="md:text-2xl mx-2 text-sm text-justify text-center  max-w-[60rem] p-5 md:text-black  ">
-          Unleash the power of hassle-free messaging and make your chat life
-          more fun, efficient, and totally effortless. We’re here{" "}
+        Automate your WhatsApp with ease: save contacts instantly, set smart auto-replies, use template-based responses, and never miss a message with default messaging!{" "}
         </div>
       </div>
 
@@ -24,10 +23,7 @@ export default function Features() {
             Setup automated custom replies
           </div>
           <div className="md:text-2xl md:text-left md:text-black w-full text-sm text-justify  md:w-[80%] ">
-            Who doesn’t like a few likes on their photos? Unless it’s an endless
-            string of “Liked” messages from someone using a different phone.
-            Switch to WhatsApp to ensure all likes are well-received in the
-            chat.{" "}
+          Who wouldn’t love to send a quick, thoughtful reply without lifting a finger? <br/><br/>Unless, of course, it’s a series of generic responses that miss the mark. Set up automated custom replies with Whatstrek to ensure every message feels personal and perfectly timed.{" "}
             <div className="hidden mt-6 md:flex w-full justify-start">
               <CustomButton
                 to=""
@@ -64,10 +60,7 @@ export default function Features() {
             Save Contacts Automatically
           </div>
           <div className="md:text-2xl md:text-right md:text-black w-full text-sm text-justify md:w-[60%]">
-            Who doesn’t like a few likes on their photos? Unless it’s an endless
-            string of “Liked” messages from someone using a different phone.
-            Switch to WhatsApp to ensure all likes are well-received in the
-            chat.{" "}
+          Who doesn’t want to stay organized and never lose track of new contacts? <br/><br/>Unless, of course, you’re juggling countless manual entries. Save contacts automatically with Whatstrek and ensure every new interaction is seamlessly captured and ready for follow-up.{" "}
             <div className="hidden mt-6 md:flex w-full justify-end">
               <CustomButton
                 to=""
