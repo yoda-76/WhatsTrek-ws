@@ -3,7 +3,7 @@ export default function Tutorial() {
     <div className="w-screen flex justify-center my-5">
       <div className="w-[100%] md:w-[70%]  h-[fit] m-2 p-4 rounded-md flex justify-center items-center">
         <iframe
-          src="https://www.youtube.com/embed/E7wJTI-1dvQ"
+          src="https://www.youtube.com/embed/lJIB4Ct5y2U"
           allow="autoplay; encrypted-media"
           allowFullScreen
           title="video"

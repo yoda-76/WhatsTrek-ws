@@ -91,13 +91,14 @@ export default function Footer(props:any) {
 
         {/* Social Icons */}
         <div className="flex space-x-4">
-          <a href="#" className="bg-green-200 p-2 rounded-full">
+          <a target="_blank" href="https://www.dominatorsbusinesstribe.com/" className="bg-green-200 p-2 rounded-full">www.dominatorsbusinesstribe.com/</a>
+          <a target="_blank" href="https://www.youtube.com/@divyanshsengar_" className="bg-green-200 p-3 rounded-full">
             <img src={s1} alt="Instagram" className="h-4" />
           </a>
-          <a href="#" className="bg-green-200 p-2 rounded-full">
+          {/* <a target="_blank" href="https://www.youtube.com/@divyanshsengar_" className="bg-green-200 p-2 rounded-full">
             <img src={s2} alt="YouTube" className="h-4" />
-          </a>
-          <a href="#" className="bg-green-200 p-2 rounded-full">
+          </a> */}
+          <a target="_blank" href="https://www.linkedin.com/company/dominators-business-tribe/" className="bg-green-200 p-3 rounded-full">
             <img src={s3} alt="LinkedIn" className="h-4" />
           </a>
         </div>

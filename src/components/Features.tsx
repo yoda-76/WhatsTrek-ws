@@ -41,6 +41,8 @@ export default function Features() {
           <img className="w-[50%]" src={ss2} alt="logo" />
         </div>
       </div>
+
+      
       <div className="flex md:hidden">
         <CustomButton
           to=""
