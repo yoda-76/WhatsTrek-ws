@@ -2,7 +2,7 @@ import CustomButton from "./custom/CustomButton";
 import l1 from "../assets/l1.svg";
 import Hamburger from "hamburger-react";
 import { useState } from "react";
-import Sidebar from "./sidebar"
+import Sidebar2 from "./Sidebar2"
 export default function Navbar() {
   const [isOpen, setOpen] = useState(false);
   return (
@@ -25,7 +25,7 @@ export default function Navbar() {
         </div>
         <div className="md:hidden">
           <Hamburger toggled={isOpen} toggle={setOpen} />
-          <Sidebar isOpen={isOpen} />
+          <Sidebar2 isOpen={isOpen} />
         </div>
       </nav>
     </div>

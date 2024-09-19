@@ -1,6 +1,6 @@
 import CustomButton from "./custom/CustomButton";
 
-const Sidebar = (props: any) => {
+const Sidebar2 = (props: any) => {
   return (
     <div
       className={`absolute ${
@@ -30,4 +30,4 @@ const Sidebar = (props: any) => {
     </div>
   );
 };
-export default Sidebar;
+export default Sidebar2;
