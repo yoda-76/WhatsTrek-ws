@@ -1,6 +1,10 @@
 import CustomButton from "./custom/CustomButton";
 import l1 from "../assets/l1.svg";
+import Hamburger from "hamburger-react";
+import { useState } from "react";
+import Sidebar from "./sidebar"
 export default function Navbar() {
+  const [isOpen, setOpen] = useState(false);
   return (
     <div>
       <nav className="flex justify-between  p-2 md:px-10">
@@ -18,6 +22,10 @@ export default function Navbar() {
             active={true}
             href="https://play.google.com/store/apps/details?id=com.message.whatstrek&pcampaignid=web_share"
           ></CustomButton>
+        </div>
+        <div className="md:hidden">
+          <Hamburger toggled={isOpen} toggle={setOpen} />
+          <Sidebar isOpen={isOpen} />
         </div>
       </nav>
     </div>

@@ -16,12 +16,12 @@ export default function Features() {
         </div>
       </div>
 
-      <div className="flex flex-col text-2xl md:flex-row justify-center items-center md:mt-32 mx-2 ">
-        <div className="flex  gap-6 flex-col justify-start items-center">
+      <div className="flex flex-col text-2xl md:flex-row justify-center items-center md:mt-32 mx-2 px-10">
+        <div className="flex  gap-6 flex-col justify-start items-start">
           <div className="md:text-5xl md:text-black md:text-left w-full md:w-[70%] md:my-5">
             Setup automated custom replies
           </div>
-          <div className="md:text-2xl md:text-left md:text-black w-full text-sm text-justify md:w-[80%]">
+          <div className="md:text-2xl md:text-left md:text-black w-full text-sm text-justify md:w-[60%]">
             Who doesn’t like a few likes on their photos? Unless it’s an endless
             string of “Liked” messages from someone using a different phone.
             Switch to WhatsApp to ensure all likes are well-received in the
@@ -49,12 +49,12 @@ export default function Features() {
           href="https://play.google.com/store/apps/details?id=com.message.whatstrek&pcampaignid=web_share"
         ></CustomButton>
       </div>
-      <div className="flex flex-col text-2xl  md:flex-row-reverse justify-center items-center md:mt-32 mx-2 ">
-        <div className="flex  gap-6 flex-col justify-start items-center">
+      <div className="flex flex-col text-2xl md:flex-row justify-center items-center md:mt-32 mx-2 px-10">
+        <div className="flex  gap-6 flex-col justify-start items-start">
           <div className="md:text-5xl md:text-black md:text-left w-full md:w-[70%] md:my-5">
-            Autosave Contacts
+            Save Contacts Automatically
           </div>
-          <div className="md:text-2xl md:text-left md:text-black w-full text-sm text-justify md:w-[80%]">
+          <div className="md:text-2xl md:text-left md:text-black w-full text-sm text-justify md:w-[60%]">
             Who doesn’t like a few likes on their photos? Unless it’s an endless
             string of “Liked” messages from someone using a different phone.
             Switch to WhatsApp to ensure all likes are well-received in the
@@ -81,7 +81,10 @@ export default function Features() {
           active={true}
           href="https://play.google.com/store/apps/details?id=com.message.whatstrek&pcampaignid=web_share"
         ></CustomButton>
-      </div>
+      </div>  
+
+      
+     
     </div>
   );
 }
