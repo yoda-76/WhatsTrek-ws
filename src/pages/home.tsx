@@ -6,7 +6,7 @@ import Tutorial from "../components/Tutorial";
 
 function Home( {featuresRef, pricingRef}: any) {
   return (
-    <div className="flex flex-col items-center ">
+    <div className="flex flex-col justify-center items-center  md:w-screen  ">
       <HeroBanner/>
       <Tutorial/>
       <div ref={featuresRef}>

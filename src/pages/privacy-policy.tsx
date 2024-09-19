@@ -1,6 +1,6 @@
 export default function PrivacyPolicy() {
   return (
-    <div className="flex flex-col justify-start items-start">
+    <div className="flex flex-col justify-start items-start m-2">
       <div className="text-3xl ">WhatsTrek Privacy Policy</div>
 
 

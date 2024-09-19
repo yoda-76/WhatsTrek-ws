@@ -11,6 +11,11 @@ export default {
   darkMode: "class",
   theme: {
     extend: {},
+    screens: {
+      'md': {'max': '768px'},
+      'cmd':'786px'
+      // other breakpoints...
+    }
   },
   plugins: [addVariablesForColors],
 };
