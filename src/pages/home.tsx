@@ -1,6 +1,5 @@
-import { useRef } from "react";
+
 import Features from "../components/Features";
-import Footer from "../components/Footer";
 import HeroBanner from "../components/HeroBanner";
 import Pricing from "../components/Pricing";
 import Tutorial from "../components/Tutorial";
