@@ -18,8 +18,8 @@ export default function Pricing() {
       <div className="md:w-[60%] w-full">
         <div className="text-2xl md:text-5xl text-black my-5">Pricing</div>
         <div className="text-sm md:text-2xl text-black p-5 ">
-          Unleash the power of hassle-free messaging and make your chat life
-          more fun, efficient, and totally effortless. We’re here{" "}
+          
+        Flexible pricing that fits your needs—unlock effortless WhatsApp automation!{" "}
         </div>
       </div>
 
