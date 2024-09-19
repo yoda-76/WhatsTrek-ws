@@ -6,6 +6,7 @@ export default function CustomButton(props: {
   text: string;
   active?: boolean;
   href?: string;
+  onClick?: () => void
 }) {
   return (
     <div>
@@ -15,7 +16,8 @@ export default function CustomButton(props: {
               ? `rounded-3xl text-black py-3 px-6 w-28 hover:bg-[#008069] hover:text-white`
               : `rounded-3xl text-white py-3 px-6 w-28 bg-[#008069] hover:bg-inherit hover:text-black`
           }>{props.text}</a>        
-        :<Link
+        :<Link 
+        onClick={props.onClick}
         className={
           !props.active
             ? `rounded-3xl text-black py-3 px-6 w-28 hover:bg-[#008069] hover:text-white`

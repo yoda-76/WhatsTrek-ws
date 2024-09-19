@@ -11,9 +11,9 @@ import s3 from '../assets/social/ri_linkedin-fill.png'
 
 
 
-export default function Footer() {
+export default function Footer(props:any) {
   return (
-    <div className="bg-[#008069] py-[5rem] flex flex-col h-fit w-screen">
+    <div className="bg-[#008069] py-[1rem] flex flex-col h-fit w-screen p-5">
       <div className="container mx-auto flex flex-wrap justify-between items-start">
         {/* Left Section */}
         <div className="w-full flex flex-col  md:items-start md:w-1/4 mb-6">
@@ -24,7 +24,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="mt-4">
-            <button className="bg-green-200 text-green-600 py-2 px-4 rounded-full">
+            <button  onClick={() => window.open("https://play.google.com/store/apps/details?id=com.message.whatstrek&pcampaignid=web_share", "_blank")} className="bg-green-200 text-green-600 py-2  px-5 m-1 ml-4 rounded-full">
               Download <span className="ml-2">&#x2193;</span>
             </button>
           </div>
@@ -34,23 +34,14 @@ export default function Footer() {
         <div className="w-full text-white md:w-1/4 mb-6">
           <h3 className="text-lg font-semibold ">USE WHATSTREK</h3>
           <ul className="mt-4 text-sm space-y-2 ">
-            <li className=" ">
-              <a href="#" className=" hover:underline">
-                Contact Us
-              </a>
-            </li>
-            <li>
-              <a href="#" className=" hover:underline">
+            <li className="hover:underline hover:cursor-pointer"  onClick={() => props.scrollToSection(props.featuresRef)}>
                 Features
-              </a>
+            </li>
+            <li className="hover:underline hover:cursor-pointer"  onClick={() => props.scrollToSection(props.pricingRef)}>
+              Pricing
             </li>
             <li>
-              <a href="#" className=" hover:underline">
-                Pricing
-              </a>
-            </li>
-            <li>
-              <a href="#" className=" hover:underline">
+              <a href="https://play.google.com/store/apps/details?id=com.message.whatstrek&pcampaignid=web_share" target="_blank" className=" hover:underline">
                 Download
               </a>
             </li>
@@ -66,9 +57,13 @@ export default function Footer() {
                 Privacy Policy
               </a>
             </li>
+          </ul>
+
+          <h3 className="text-lg font-semibold mt-5">MAIL US :</h3>
+          <ul className="mt-4 text-sm space-y-2">
             <li>
-              <a href="#" className="hover:underline">
-                Contact us
+              <a href="mailto:support@whatstrek.com" className="hover:underline">
+                support@whatstrek.com
               </a>
             </li>
           </ul>
