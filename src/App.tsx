@@ -1,13 +1,10 @@
-
-import './App.css'
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Home from './pages/home';
-import PrivacyPolicy from './pages/privacy-policy';
-import Navbar from './components/Navbar';
-
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/home";
+import PrivacyPolicy from "./pages/privacy-policy";
+import Navbar from "./components/Navbar";
 
 function App() {
-
   return (
     <Router>
       {/* <nav>
@@ -20,17 +17,16 @@ function App() {
           </li>
         </ul>
       </nav> */}
-      <div className=''>
+      <div className="pop">
+        <Navbar />
 
-      <Navbar/>
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        </Routes>
       </div>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;
