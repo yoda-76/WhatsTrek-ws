@@ -91,15 +91,15 @@ export default function Footer(props:any) {
 
         {/* Social Icons */}
         <div className="flex md:justify-center justify-end space-x-4  md:w-[100%]">
-          <a target="_blank" href="https://www.dominatorsbusinesstribe.com/" className="bg-green-200 p-2 rounded-full text-xs">www.dominatorsbusinesstribe.com/</a>
+          <a target="_blank" href="https://www.dominatorsbusinesstribe.com/" className="bg-green-200 p-2 cmd:h-fit cmd:mt-4 rounded-full text-xs">www.dominatorsbusinesstribe.com/</a>
           <a target="_blank" href="https://www.youtube.com/@divyanshsengar_" className="bg-green-200 md:w-10 md:h-8 md:p-0 md:pl-1  p-3 rounded-full">
-            <img src={s1} alt="Instagram" className="h-7" /><span className="text-[#008069]">aaa</span>
+            <img src={s1} alt="Instagram" className="h-7" /><span className="cmd:hidden text-[#008069]">aaa</span>
           </a>
           {/* <a target="_blank" href="https://www.youtube.com/@divyanshsengar_" className="bg-green-200 p-2 rounded-full">
             <img src={s2} alt="YouTube" className="h-4" />
           </a> */}
           <a target="_blank" href="https://www.linkedin.com/company/dominators-business-tribe/" className="bg-green-200 md:w-10 md:h-8 md:p-0 md:pl-1  p-3 rounded-full">
-            <img src={s3} alt="LinkedIn" className="h-7" /> <span className="text-[#008069]">aaa</span>
+            <img src={s3} alt="LinkedIn" className="h-7" /> <span className="cmd:hidden text-[#008069]">aaa</span>
           </a>
         </div>
       </div>
