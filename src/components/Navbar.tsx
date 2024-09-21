@@ -6,7 +6,7 @@ import Sidebar2 from "./Sidebar2"
 export default function Navbar({ scrollToSection, featuresRef, pricingRef }: any) {
   const [isOpen, setOpen] = useState(false);
   return (
-    <div>
+    <div className="sticky top-0 bg-white">
       <nav className="flex justify-between  p-2 cmd:px-10">
         {/* <h1 className='text-3xl text-black font-bold h-16'>LOGO</h1> */}
         <a className="mt-5" href="/">
